@@ -1,3 +1,7 @@
+.body-cour{
+    margin-top: 0;
+}
+
 .formule{
 
     background-color: rgb(129, 232, 220);
@@ -22,9 +26,6 @@
 
 
 }
-
-
-
 
 #test{
     width: 100%;
@@ -59,6 +60,32 @@
 
 
 nav{
-    margin-top3:3px;
-    padding-top: px;
+  border-radius: 19px;
+    display: flex;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+   
 }
+.nav-list{
+    display: flex; 
+    margin: 10px;
+    
+   
+}
+#flist{
+  
+    padding: 20px;
+    padding-left: 20px;
+    list-style: none;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px greenyellow; 
+}
+
+   
